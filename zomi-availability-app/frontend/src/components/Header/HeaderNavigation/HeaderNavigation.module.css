@@ -1,0 +1,30 @@
+a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.45rem;
+    padding-top: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    color: #ed715e;
+    background-color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    padding-top: 0.3rem;
+    list-style-type: none;
+}

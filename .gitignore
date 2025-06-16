@@ -1,3 +1,5 @@
 .idea
 .vscode
-*/node_modules/
+/zomi-availability-app/backend/node_modules/
+/zomi-availability-app/frontend/node_modules/
+/zomi-availability-app/backend/.env

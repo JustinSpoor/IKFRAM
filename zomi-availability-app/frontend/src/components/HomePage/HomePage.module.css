@@ -1,0 +1,22 @@
+.submit {
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color: #ed7129;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.submitButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.submit:hover {
+    text-decoration: underline;
+}

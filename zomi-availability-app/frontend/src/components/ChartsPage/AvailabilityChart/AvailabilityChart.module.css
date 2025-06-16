@@ -1,0 +1,6 @@
+.barChartContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-right: 3rem;
+}

@@ -1,0 +1,72 @@
+.detailsBoxContainer {
+    display: flex;
+}
+
+.availabilityItemDetailsContainer {
+    display: flex;
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 1rem 2rem 1rem 1rem;
+    margin: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    position: relative;
+}
+
+.availabilityItemDetailsContainer:hover{
+    transform: scale(1.005, 1.005);
+}
+
+.dataContainer {
+    width: 90%;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0;
+    font-size: 1.2rem;
+}
+
+.progressBar {
+    background-color: #f0f0f0;
+    height: 0.7rem;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+    width: 80%;
+}
+
+.progress {
+    background-color: #ed7129;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px 0 0 5px;
+}
+
+.arrowButton {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
